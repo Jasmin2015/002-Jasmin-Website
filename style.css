@@ -1,30 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-    font-family: Poppins;
-    background-color: rgb(199, 169, 253);
-  }
-  h1 {
-    font-weight: 500;
-  }
+  font-family: Poppins;
+  background-color: rgb(205, 146, 231);
+}
 
-  h3 {
-    font-weight: 500;
-  }
+a {
+  cursor: url('./Images/wand.png'), auto;;
+}
 
-  button {
-    font-family: Poppins;
-    background-color: rgb(122, 120, 237);
-    border: none;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer
+h1 {
+  font-weight: 500;
 
-  }
+}
 
-  
+h3 {
+  font-weight: 500;
+  color: rgb(42, 50, 44);
+}
+
+button {
+  font-family: Poppins;
+  background-color: rgb(144, 168, 238);
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: url('./Images/wand.png'), auto;
+
+}
+
+table, th, td {
+  border: 1px solid black;
+}
